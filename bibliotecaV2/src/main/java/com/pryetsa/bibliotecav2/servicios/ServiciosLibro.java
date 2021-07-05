@@ -9,10 +9,8 @@ import com.pryetsa.bibliotecav2.beans.Libro;
 import com.pryetsa.bibliotecav2.beans.Sesion;
 import com.pryetsa.bibliotecav2.beans.Usuario;
 import com.pryetsa.bibliotecav2.datosFichero.PersistenciaLibro;
-import java.util.Comparator;
 import java.util.Map;
 import java.util.Set;
-import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 /**

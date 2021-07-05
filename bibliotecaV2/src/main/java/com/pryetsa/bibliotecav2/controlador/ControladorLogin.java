@@ -47,7 +47,7 @@ public class ControladorLogin {
 
                     sesion = sSesion.login(usuario);
                     System.out.println("Login corecto");
-                    //return sesion;
+                    
                     //redirigir al menu de alquileres
                     return;
                 } catch (NickIncorrectoException e) {
@@ -70,7 +70,7 @@ public class ControladorLogin {
 //        if (contador < 0) {
 //            throw new LimiteDeIntentosSuperadoException("Limite de intentos superado");
 //        }
-        login();
+        login();//prueba de número de intentos
         //return login();
         //return null;
     }

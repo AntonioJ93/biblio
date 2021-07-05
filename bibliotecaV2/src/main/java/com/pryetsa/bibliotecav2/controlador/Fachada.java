@@ -25,7 +25,7 @@ public class Fachada {
     private final PersistenciaLibro pLibro;
     private Leer leerUsuarios;
     private CommandFile leerLibros;
-    public Fachada(){
+    public Fachada(){//iniciamos los componentes de la aplicación
         pUsuario=new PersistenciaUsuario();
         pLibro=new PersistenciaLibro();
         //leer datos
